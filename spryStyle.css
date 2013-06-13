@@ -1,0 +1,77 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*#spryMenu{
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+#coolMenu, #coolMenu ul{
+	list-style-type: none;
+}
+
+#coolMenu{
+	float: left; /*How does float affect the background color of #coolMenu?*/
+	clear: both;
+	/*font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;*/
+	/*background: #752c0e;*/
+	/*background: #2f8be8;*/
+	margin-left: 50px auto;
+	margin-right: auto;
+	vertical-align: middle;
+	height: 100%;
+}
+
+#coolMenu > li{
+	float: left;
+	vertical-align: middle;
+}
+
+#coolMenu > li:hover > a{
+	background: #9B4E00;
+	color: #000;
+}
+
+#coolMenu > li > a{
+	display: block;
+	height: 2em;
+	line-height: 2em;
+	padding: 0 1.5em;
+	text-decoration: none;
+	color: #fff;
+	font-weight:
+}
+
+#coolMenu ul{
+	position: absolute;
+	display: none;
+	z-index: 999;
+	background: #a43200;
+	/*background: #f09d28;*/
+}
+
+#coolMenu ul li{
+	border-top: groove 1px #ffc97c;
+	padding: 4px;
+}
+
+#coolMenu ul li a{
+	width: 80px;
+	color: #000;
+	text-decoration: none;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+
+#coolMenu ul li:hover {
+	background: #9B4E00;
+}
+
+#coolMenu ul li:hover a{
+	color: #FFF;
+}
+
+#coolMenu li:hover ul.NoJS{
+	display: block;		
+}
